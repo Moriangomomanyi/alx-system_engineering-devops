@@ -1,0 +1,2 @@
+#!/bin/bash
+cut -f1 input.log | sort | uniq -c | sort -k1,1nr -k2,2 | head -n 11
